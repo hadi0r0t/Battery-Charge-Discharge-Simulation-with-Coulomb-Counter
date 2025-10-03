@@ -16,16 +16,6 @@ OCV_vec = [3.0 3.4 3.6 3.7 3.8 3.9 ...
 eta_charge = 0.995;
 eta_discharge = 1.000;
 
-
-% Controller parameters
-Icc          = 1.0;       % CC charge current [A]
-Idis        = -1.0;      % CC discharge current [A]
-Vmax        = 4.2;       % Charge cutoff voltage [V]
-Vcutoff      = 3.0;       % Discharge cutoff voltage [V]
-Iterm        = 0.05;      % Termination current for CV [A]
-T_cv_hold   = 300;       % Time hold in CV [s]
-T_rest_charge= 200;       % Rest time after charge [s]
-T_rest_dis  = 200;       % Rest time after discharge [s]
-
 Ts         = 0.05;      % Simulation step size [s]
 SoC0      = 0.8;       % Initial SoC
+

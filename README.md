@@ -30,7 +30,7 @@ Where:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/battery-simulation.git
+   git clone https://github.com/hadi0r0t/battery-simulation.git
    cd battery-simulation
 2. Open Battery_ECM.slx in MATLAB/Simulink.
 3. Run the simulation.
